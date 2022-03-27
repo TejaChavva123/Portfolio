@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Teja Chavva | Data Analyst</title>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <meta name="author" content="TejaChavva">
+        <link rel="icon" type="image/x-icon" href="Images/T.png">
+        <link rel="stylesheet" href="style.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="htps://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+      <div id="navbar">
+        <!--Starting of Navbar-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+          <a class="navbar-brand" href="#">Portfolio</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item active">
+                <a id="active-link" class="nav-link active" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Experience</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#skills">Skills</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#projects">Projects</a>
+              </li>
+              <!-- <a href="#contact" class="btn-logo"><strong>Contact</strong></a> -->
+              <a href="#contact"><button type="button" class="btn btn-outline-primary"><strong>Contact</strong></button></a>
+            </ul>
+          </div>
+        </nav>
+      </div>
+      <!--Ending of Navbar-->
+
+      <!-- home -->
+      <div id="home">
+        <div id="home-content">
+          <h1>I'm <span style="color:slateblue;">Teja Venkata Chavva</span></h1>
+          <p class="blockquote-footer my-0">Aspiring ML Enginner | Front-End Web Developer</p>
+          <div>
+            <a href="https://drive.google.com/file/d/1QRYEhAILOEL8bw0GHYd1kz4JU241Sk7E/view?usp=sharing"><button class="bttn1">Resume</button></a>
+            <a href="#contact"><button class="bttn2">Contact</button></a>
+          </div>
+        </div>
+      </div>
+      <br><br><br>
+      <!-- Skills -->
+      <div id="skills">
+        <h3 style="text-align:center;">#Skills</h3>
+        <div class="container">
+          <div class="skills-content">
+            <p>I'm currently pursing my B.Tech degree in Electronics and Communication Engineering from Visveswaraya National Institute of Technology (VNIT), Nagpur. I am very much passionate new emerging technologies like Data Science, Machine Learning. I love to participate in hackathons and various events. Currently learning Web Development with Django.</p>
+          </div>
+          <div class="skill-bars">
+            <div class="col-md-6">
+              <div id="myBar">
+                <span>Computer Languages(C, C++, Python)</span>
+                <div class="progress my-2" style="height:5px;">               
+                  <div class="progress-bar myColor" role="progressbar" style="width: 80%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+              <div id="myBar">
+                <span>HTML,CSS,Javascript</span>
+                <div class="progress my-2" style="height:5px;">               
+                  <div class="progress-bar myColor" role="progressbar" style="width: 75%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+              <div id="myBar" class="my-4">
+                <span>DBMS(MySQL)</span>
+                <div class="progress my-2" style="height:5px;">               
+                  <div class="progress-bar myColor" role="progressbar" style="width: 70%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+              <div id="myBar" class="my-4">
+                <span>Machine Learning</span>
+                <div class="progress my-2" style="height:5px;">               
+                  <div class="progress-bar myColor" role="progressbar" style="width: 75%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+              <div id="myBar" class="my-4">
+                <span>Data Science</span>
+                <div class="progress my-2" style="height:5px;">               
+                  <div class="progress-bar myColor" role="progressbar" style="width: 60%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br><br><br>
+      <!-- Projects -->
+      <div id="projects">
+        <header>
+          <h2>#Projects</h2>
+        </header>
+        <div class="projects_content">
+          <div class="project">
+            <div class="Name">
+              <h3>Image Classification</h3>
+              <p>Here we have a 20 different classes and our model predicts the input image that belongs which of the category in those classes. Feature Extraction is obtained by HOG(Histogram of Gradients) Descriptor and we have used SGD Classifier.</p>
+              <div class="project_links">
+                <a href="https://www.linkedin.com/posts/teja-venkata-chavva-544833212_newproject-computervision-machinelearnig-activity-6908278816523870208-bWre?utm_source=linkedin_share&utm_medium=member_desktop_web" target="_blank">Video Link</a>
+                <a href="https://github.com/TejaChavva123/Image_Classification_SGD" target="_blank">GitHub Code</a>
+              </div>
+            </div>
+          </div>
+          <div class="project">
+            <div class="Name">
+              <h3>Mall Customer Segmentation</h3>
+              <p>Customer segmentation is a separation of a market into multiple distinct groups of consumers who share similar characteristics. Segmentation of the market is an effective way to define and meet customer needs. We use K-Means Clustering algorithm.</p>
+              <div class="project_links">
+                <a href="#">Video Link</a>
+                <a href="https://github.com/TejaChavva123/Mall-Customer-Segmentation" target="_blank">GitHub Code</a>
+              </div>
+            </div>
+          </div>
+          <div class="project">
+            <div class="Name">
+              <h3>Thyroid Disease Prediction</h3>
+              <p>Thyroid disease is a common cause of medical diagnosis and prediction, with an onset that is difficult to forecast in medical research. The main goal is to predict the estimated risk on a patient's chance of obtaining thyroid disease or not.</p>
+              <div class="project_links">
+                <a href="#">Video Link</a>
+                <a href="https://github.com/TejaChavva123/Thyroid-Disease-Prediction" target="_blank">GitHub Code</a>
+              </div>
+            </div>
+          </div>
+          <div class="project">
+            <div class="Name">
+              <h3>Store Sales Prediction</h3>
+              <p>Nowadays, shopping malls and Big Marts keep track of individual item sales data in order to forecast future client demand and adjust inventory management. By mining the data store from the data warehouse, more anomalies and common patterns can be discovered.</p>
+              <div class="project_links">
+                <a href="#">Video Link</a>
+                <a href="https://github.com/TejaChavva123/Stores-Sales-Analyis-and-Prediction" target="_blank">GitHub Code</a>
+              </div>
+            </div>
+          </div>
+          <div class="project">
+              <div class="Name">
+                <h3>Titanic Survival Prediction</h3>
+                <p>The Titanic dataset provides observations for each passenger and the survival outcome. The problem statement entails predicting whether a passenger would survive or not survive given the features such as passenger class, sex, fair, age, number of children aboard, and others.</p>
+                <div class="project_links">
+                  <a href="#">Video Link</a>
+                  <a href="https://github.com/TejaChavva123/Titanic-Survival-Prediction" target="_blank">GitHub Code</a>
+                </div>
+              </div>
+          </div>
+          <div class="project">
+              <div class="Name">
+                <h3>Fraud Detection</h3>
+                <p>Now a days, Fraud increases day by day. Model here predicts the fraud trasactions happened in the bank accounts by cross checking the original balance in the sender account and final balance in the receiver's account. Here we have used classification algorithm for prediction.</p>
+                <div class="project_links">
+                  <a href="#">Video Link</a>
+                  <a href="https://github.com/TejaChavva123/Codebits_Unscript_Rookies_Hackathon" target="_blank">GitHub Code</a>
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+      <!--End of projects-->
+      <br><br><br>
+      <!--Starting of Contact-->
+      <div id="contact">
+        <div class="contact form">
+          <h3>#Contact me</h3>
+          <p>Want to ask anything ? Ask here</p>
+          <form>
+            <div class="contact-img">
+              <img src="Images/contact.svg" alt="Contact">
+            </div>
+            <div class="form-row">
+              <div class="col-md-4 mb-3">
+                <input type="text" class="form-control" placeholder="Enter Name"  required>
+              </div>
+              <div class="form-group">
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" required><br>
+              </div>
+              <div class="col-md-4 mb-3">
+                <textarea placeholder="enter the text here" class="form-control" id="exampleFormControlTextarea1" rows="4" required></textarea>
+              </div>
+              <div class="wrapper">
+                <button type="submit">Submit</button>
+              </div>
+              <br>
+            </div>
+            <br>
+      </div>
+      <br>
+      <div class="cont">
+        <div class="mail">
+          <i class="fa fa-envelope" style="font-size:20px;color:slateblue;"> chavvateja123@gmail.com</i>
+        </div>
+        <!-- <div class="phn">
+          <i class="fa fa-phone" style="font-size:20px;color:slateblue;"> +91 7013354040</i>
+        </div> -->
+      </div>
+      <div class="media">
+        <div class="github">
+          <a href="https://github.com/TejaChavva123" target="_blank"><i class="fa fa-github" style="font-size:40px;color:slateblue;"></i></a>
+        </div>
+        <div class="instagram">
+          <a href="https://www.instagram.com/teja_chavva/" target="_blank"><i class="fa fa-instagram" style="font-size:40px;color:slateblue"></i></a>
+        </div>
+        <div class="linkedin">
+          <a href="https://www.linkedin.com/in/teja-venkata-chavva-544833212/" target="_blank"><i class="fa fa-linkedin" style="font-size:40px;color:slateblue"></i></a>
+        </div>
+      </div>
+      <hr>
+      <footer>Made with ❤️ by Teja Chavva</footer>
+    </body>
+</html>

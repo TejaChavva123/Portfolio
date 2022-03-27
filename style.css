@@ -1,0 +1,288 @@
+
+.navbar{
+    height:12% !important;
+    background-color:white !important;
+    box-shadow: 0 2px 2px -2px rgba(0,0,0,.2);
+}
+
+.navbar-brand{
+    color:slateblue !important;
+    font-size:30px !important;
+    font-weight:600 !important;
+    margin-left:20px !important;
+}
+
+.navbar-toggler{
+    margin-right:15px !important;
+}
+.navbar-toggler:hover{
+    color:slateblue !important;
+    border:2px solid slateblue !important;
+}
+
+.navbar-nav{
+    margin-right:20px !important;
+}
+
+.nav-link{
+    margin-right:30px !important;
+    margin-left:20px !important;
+    font-weight: bold !important;
+}
+#active-link{
+    color:slateblue !important;
+}
+.nav-link:hover{
+    color:slateblue !important;
+}
+.btn{
+    width:100px !important;
+    margin-left:15px !important;
+    border:2px solid slateblue;
+    background-color:slateblue !important;
+    color:white !important;
+}
+
+.btn:hover{
+    border:2px solid slateblue !important;
+    background-color:white !important;
+    color:slateblue !important;
+}
+
+@media (max-width:700px){
+    .navbar-nav{
+        background-color:white !important;
+    }
+}
+
+/* Home */
+
+#home{
+    height:88vh;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+#home-content h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:45px;
+    text-align:center;
+    padding:10px;
+}
+#home-content p{
+    text-align:center;
+}
+
+#home-content div{
+    margin-top:20px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bttn1{
+    width:100px;
+    height:50px;
+    border:2px solid slateblue;
+    color:white;
+    background-color: slateblue;
+    margin:5px;
+    padding:5px;
+    border-radius:5px;
+    font-weight:600;
+}
+.bttn2{
+    width:100px;
+    height:50px;
+    border:2px solid slateblue;
+    color:slateblue;
+    background-color: white;
+    margin:5px;
+    padding:5px;
+    border-radius:5px;
+    font-weight:600;
+}
+.bttn2:hover{
+    background-color:slateblue;
+    color:white;
+}
+
+
+/* Skills */
+
+#skills h3{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:30px;
+}
+.skills-content p{
+    margin-top:20px;
+    padding:20px;
+    font-size:18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.skill-bars{
+    margin:20px;
+}
+
+/* Projects */
+
+#projects{
+    padding:20px;
+    font-family: "Space Grotesk", sans-serif;
+}
+header h2{
+    text-align:center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:30px;
+}
+.projects_content{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Name{
+    width:320px;
+    height:370px;
+    border-bottom:2px solid slateblue;
+    border-radius:10px;
+    margin-top:30px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.Name h3{
+    color:slateblue;
+    text-align:center;
+    margin-top:15px;
+    padding:10px;
+    font-size:25px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.Name p{
+    padding:10px;
+    text-align:center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.project_links{
+    flex-direction: row;
+    margin-bottom:30px;
+}
+
+.Name a{
+    text-decoration:none;
+    color:slateblue;
+    border:2px solid slateblue;
+    border-radius:10px;
+    padding:10px;
+    margin-left:40px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.Name a:hover{
+    color:white;
+    background-color: slateblue;
+}
+
+/* MEDIA QUERIES(RESPONSIVE WEB DESIGN) */
+
+@media (min-width:768px){
+    .projects_content{
+        display:flex;
+        flex-direction: row-reverse;
+        flex-wrap:wrap;
+        justify-content: space-around;
+        align-items:center;
+    }
+}
+
+
+/* Contact */
+
+#contact h3,p{
+    text-align:center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+input,textarea{
+    border: 2px solid slateblue !important;
+    border-radius:10px !important;
+}
+input{
+    width:300px !important;
+    height:50px !important
+}
+label{
+    font-size:1.5em;
+    font-weight:500;
+}
+textarea{
+    width:300px !important;
+    height:100px !important;
+}
+
+.form-row{
+    margin-top:50px;
+}
+
+form{
+    margin-top:50px;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    flex-wrap:wrap;
+}
+
+.contact-img{
+    width:400px;
+    padding:30px;
+}
+.contact-img img{
+    width:100%;
+}
+
+.wrapper{
+    text-align:center;
+}
+
+.wrapper button{
+    width:100px;
+    height:50px;
+    border:2px solid slateblue;
+    color:white;
+    background-color: slateblue;
+    margin:5px;
+    padding:5px;
+    border-radius:5px;
+    font-weight:600;
+}
+
+
+/* Media */
+
+.cont{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+.cont div{
+    margin:5px;
+}
+.media{
+    padding:20px;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+.media div{
+    padding:20px;
+}
+/* footer */
+
+footer{
+    text-align:center;
+    font-size:25px;
+    margin-bottom:20px;
+}
+
